@@ -1,0 +1,107 @@
+/* resetting browser stuff */
+*     {
+  box-sizing: border-box;
+}
+html,
+body   {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-size: 16px;
+  background-color: #e6e6e6;
+}
+
+/* styling our overall page */
+body     {
+  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* styling our header */
+header   {
+  position: fixed;
+  background: #222;
+  color: #FFF;
+  padding: 20px 30px;
+  width: 100%;
+  display: flex;
+  transition: 1s;
+  z-index: 100000;
+}
+
+header.sticky {
+  padding: 5px 100px;
+  background: #ffccff;
+}
+
+header.sticky ul li a{
+  color: black;
+}
+
+header.sticky .abc {
+  color: black;
+}
+
+.abc   {
+  font-size: 24px;
+  font-family: Courier;
+}
+
+/* logo */
+#logo         {
+  display: inline-block;
+  color: #FFF;
+  text-decoration: none;
+  width: 49%;
+}
+#logo img    {
+  width: 50px;
+  border-radius: 3px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+#logo span   {
+  display: inline-block;
+}
+
+/* main navigation */
+nav     {
+  width: 50%;
+  display: inline-block;
+  text-align: right;
+}
+nav ul   {
+  list-style: none;
+  margin: 0;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a    {
+  color: #FFF;
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 3px;
+  transition: 0.3s ease all;
+}
+nav ul li a:hover   {
+  background: #444;
+}
+
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#aboutus h2{
+  margin-bottom: 10vh;
+}
+
+.img-wrap img {
+  width: 50%;
+  padding: 10px;
+  box-shadow: 0 0 50px #999999
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <title>Thank You</title>
+
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <header>
+
+        <a id="logo" href="index.html">
+            <img src="book.png" alt="Logo">
+            <span class="abc">Buy Books Online</span>
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="#hhh">Categories</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="login.html">Logout</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+		<script type="text/javascript">
+
+			window.addEventListener("scroll",function(){
+				var header = document.querySelector("header");
+				header.classList.toggle("sticky",window.scrollY > 0);
+			})
+
+		</script>
+
+    <main>
+
+        <div class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Thank You For Purchasing the book.</h1>
+                <p>Please click on categories to browse further.</p>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <img src="book.png" alt="Footer Logo">
+        <span>My Website<br>Ronak Shah &copy;</span>
+    </footer>
+
+</body>
+</html>

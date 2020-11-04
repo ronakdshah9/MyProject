@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <title>Homepage</title>
+
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <header>
+
+        <a id="logo" href="index.html">
+            <img src="book.png" alt="Logo">
+            <span class="abc">Buy Books Online</span>
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="#hhh">Categories</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="login.html">Logout</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+		<script type="text/javascript">
+
+			window.addEventListener("scroll",function(){
+				var header = document.querySelector("header");
+				header.classList.toggle("sticky",window.scrollY > 0);
+			})
+
+		</script>
+
+    <main>
+
+        <div class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Welcome</h1>
+                <p>To the best website for buying books online</p>
+            </div>
+        </div>
+
+				<div class="container">
+					<h3 id="hhh">Categories:</h3>
+						<div class="card">
+							<div class="content">
+								<h2>Horror</h2>
+								<p>Horror is a genre of speculative fiction which is intended to frighten, scare, or disgust.</p>
+								<a href="horror.html">Explore</a>
+							</div>
+						</div>
+						<div class="card">
+							<div class="content">
+								<h2>Adventure</h2>
+								<p>Adventure fiction is a genre of fiction that usually presents danger, or gives the reader a sense of excitement.</p>
+								<a href="adventure.html">Explore</a>
+							</div>
+						</div>
+						<div class="card">
+							<div class="content">
+								<h2>Sci-fi</h2>
+								<p>Involves advanced science and technology, space exploration, time travel, parallel universes, and extraterrestrial life.</p>
+								<a href="scifi.html">Explore</a>
+							</div>
+						</div>
+						<div class="card">
+							<div class="content">
+								<h2>Romance</h2>
+								<p>Its primary focus on the relationship and romantic love between two people</p>
+								<a href="romance.html">Explore</a>
+							</div>
+						</div>
+						<div class="card">
+							<div class="content">
+								<h2>Art</h2>
+								<p>Artist's books are art objects in the form of a book, an art form dating from the mid 20th century.</p>
+								<a href="art.html">Explore</a>
+							</div>
+						</div>
+						<div class="card">
+							<div class="content">
+								<h2>Cooking</h2>
+								<p>A cookbook or cookery book is a kitchen reference containing recipes.</p>
+								<a href="cooking.html">Explore</a>
+							</div>
+						</div>
+						</div>
+					</div>
+
+        <div class="site-section">
+        <div class="site-section-inside">
+
+            <div class="section-header">
+                <h2>Key Features</h2>
+            </div>
+
+            <div class="feature-box">
+                <img src="easy.png" alt="Easy">
+                <h5>Easy to Access</h5>
+                <p>Just think of how easy this is to use. Toddlers can do it. So can you!</p>
+            </div>
+
+            <div class="feature-box">
+                <img src="fun.png" alt="Fun">
+                <h5>Fun to Use</h5>
+                <p>Takes reading to a whole new level. Just beyond imagination</p>
+            </div>
+
+            <div class="feature-box">
+                <img src="love.jpg" alt="Love">
+                <h5>You'll Love It</h5>
+                <p>You'll want to come back again and again. We'd love to see you again!</p>
+            </div>
+
+        </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <img src="book.png" alt="Footer Logo">
+        <span>My Website<br>Ronak Shah &copy;</span>
+    </footer>
+
+</body>
+</html>

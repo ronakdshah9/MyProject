@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <title>Horror</title>
+
+    <link rel="stylesheet" href="horror.css">
+</head>
+<body>
+
+    <header>
+
+        <a id="logo" href="index.html">
+            <img src="book.png" alt="Logo">
+            <span class="abc">Buy Books Online</span>
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Categories</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="aboutme.html">About me</a></li>
+                <li><a href="login.html">Logout</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+		<script type="text/javascript">
+
+			window.addEventListener("scroll",function(){
+				var header = document.querySelector("header");
+				header.classList.toggle("sticky",window.scrollY > 0);
+			})
+
+		</script>
+
+<main>
+
+    <div class="main">
+
+            <div class="row">
+              <div class="col-2">
+                  <a class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">  </div>
+                      <div class="flip-card-back">
+                          <p>
+                              Synopsis:
+                          </p>
+                          <p>
+                            Regan, a young girl, displays bizarre behaviour after playing with a Ouija board. Chris, her mother and an actress, consults two priests who conclude that Regan is possessed by a demonic entity.
+                          </p>
+                      </div>
+                    </div>
+                  </a>
+              </div>
+
+              <div class="hey">
+                  <p>
+                      The Exorcist
+                  </p>
+									<div class="sm">
+	                    <a href="thankyou.html">Buy</a>
+	                </div>
+              </div>
+            </div><!-- /.row -->
+
+            <div class="clearer"></div>
+
+          <div class="row">
+              <div class="col-2">
+                  <a class="flip-card">
+                      <div class="flip-card-inner">
+                          <div class="flip-card-front2"></div>
+                          <div class="flip-card-back">
+                              <p>
+                                  Synopsis:
+                              </p>
+                              <p>
+																 Frankenstein tells the story of gifted scientist Victor Frankenstein who succeeds in giving life to a being of his own creation. However, this is not the perfect specimen he imagines that it will be, but rather a hideous creature who is rejected by Victor and mankind in general.
+                              </p>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+
+              <div class="hey">
+                  <p>
+                      Frakenstein
+                  </p>
+									<div class="sm">
+	                   <a href="thankyou.html">Buy</a>
+	                </div>
+              </div>
+          </div><!-- /.row -->
+      </div><!-- /#main -->
+
+    </main>
+
+      <footer>
+          <img src="book.png" alt="Footer Logo">
+          <span>My Website<br>Ronak Shah &copy;</span>
+      </footer>
+
+  </body>
+  </html>

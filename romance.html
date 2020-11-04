@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <title>Romance</title>
+
+    <link rel="stylesheet" href="romance.css">
+</head>
+<body>
+
+    <header>
+
+        <a id="logo" href="index.html">
+            <img src="book.png" alt="Logo">
+            <span class="abc">Buy Books Online</span>
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Categories</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="aboutme.html">About me</a></li>
+                <li><a href="login.html">Logout</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+		<script type="text/javascript">
+
+			window.addEventListener("scroll",function(){
+				var header = document.querySelector("header");
+				header.classList.toggle("sticky",window.scrollY > 0);
+			})
+
+		</script>
+
+<main>
+
+    <div class="main">
+
+            <div class="row">
+              <div class="col-2">
+                  <a class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">  </div>
+                      <div class="flip-card-back">
+                          <p>
+                              Synopsis:
+                          </p>
+                          <p>
+                            Mrs. Bennet insists that her daughters find rich husbands and settle down. When a wealthy bachelor starts living near them, Mrs. Bennet's happiness knows no bounds.
+                          </p>
+                      </div>
+                    </div>
+                  </a>
+              </div>
+
+              <div class="hey">
+                  <p>
+                      Pride And Prejudice
+                  </p>
+									<div class="sm">
+	                    <a href="thankyou.html">Buy</a>
+	                </div>
+              </div>
+            </div><!-- /.row -->
+
+            <div class="clearer"></div>
+
+          <div class="row">
+              <div class="col-2">
+                  <a class="flip-card">
+                      <div class="flip-card-inner">
+                          <div class="flip-card-front2"></div>
+                          <div class="flip-card-back">
+                              <p>
+                                  Synopsis:
+                              </p>
+                              <p>
+																 Two cancer-afflicted teenagers Hazel and Augustus meet at a cancer support group. The two of them embark on a journey to visit a reclusive author in Amsterdam.
+                              </p>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+
+              <div class="hey">
+                  <p>
+                      The Fault In Our Stars
+                  </p>
+									<div class="sm">
+	                    <a href="thankyou.html">Buy</a>
+	                </div>
+              </div>
+          </div><!-- /.row -->
+      </div><!-- /#main -->
+
+    </main>
+
+      <footer>
+          <img src="book.png" alt="Footer Logo">
+          <span>My Website<br>Ronak Shah &copy;</span>
+      </footer>
+
+  </body>
+  </html>

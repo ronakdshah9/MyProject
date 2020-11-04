@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <title>Cooking</title>
+
+    <link rel="stylesheet" href="cooking.css">
+</head>
+<body>
+
+    <header>
+
+        <a id="logo" href="index.html">
+            <img src="book.png" alt="Logo">
+            <span class="abc">Buy Books Online</span>
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Categories</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="aboutme.html">About me</a></li>
+                <li><a href="login.html">Logout</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+		<script type="text/javascript">
+
+			window.addEventListener("scroll",function(){
+				var header = document.querySelector("header");
+				header.classList.toggle("sticky",window.scrollY > 0);
+			})
+
+		</script>
+
+<main>
+
+    <div class="main">
+
+            <div class="row">
+              <div class="col-2">
+                  <a class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">  </div>
+                      <div class="flip-card-back">
+                          <p>
+                              Synopsis:
+                          </p>
+                          <p>
+                            Hailed by Time magazine as "a minor masterpiece" when it first appeared in 1984, On Food and Cooking is the bible to which food lovers and professional chefs worldwide turn for an understanding of where our foods come from, what exactly they're made of, and how cooking transforms them into something new and delicious.
+                          </p>
+                      </div>
+                    </div>
+                  </a>
+              </div>
+
+              <div class="hey">
+                  <p>
+                      On Food And Cooking
+                  </p>
+									<div class="sm">
+	                    <a href="thankyou.html">Buy</a>
+	                </div>
+              </div>
+            </div><!-- /.row -->
+
+            <div class="clearer"></div>
+
+          <div class="row">
+              <div class="col-2">
+                  <a class="flip-card">
+                      <div class="flip-card-inner">
+                          <div class="flip-card-front2"></div>
+                          <div class="flip-card-back">
+                              <p>
+                                  Synopsis:
+                              </p>
+                              <p>
+																 The Joy of Cooking: A Compilation of Reliable Recipes with a Casual Culinary Chat with more than 500 tested recipes and related commentaries.
+                              </p>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+
+              <div class="hey">
+                  <p>
+                      Joy Of Cooking
+                  </p>
+									<div class="sm">
+	                    <a href="thankyou.html">Buy</a>
+	                </div>
+              </div>
+          </div><!-- /.row -->
+      </div><!-- /#main -->
+
+    </main>
+
+      <footer>
+          <img src="book.png" alt="Footer Logo">
+          <span>My Website<br>Ronak Shah &copy;</span>
+      </footer>
+
+  </body>
+  </html>

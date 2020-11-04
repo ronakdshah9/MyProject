@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <title>Art</title>
+
+    <link rel="stylesheet" href="art.css">
+</head>
+<body>
+
+    <header>
+
+        <a id="logo" href="index.html">
+            <img src="book.png" alt="Logo">
+            <span class="abc">Buy Books Online</span>
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Categories</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="aboutme.html">About me</a></li>
+                <li><a href="login.html">Logout</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+		<script type="text/javascript">
+
+			window.addEventListener("scroll",function(){
+				var header = document.querySelector("header");
+				header.classList.toggle("sticky",window.scrollY > 0);
+			})
+
+		</script>
+
+<main>
+
+    <div class="main">
+
+            <div class="row">
+              <div class="col-2">
+                  <a class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">  </div>
+                      <div class="flip-card-back">
+                          <p>
+                              Synopsis:
+                          </p>
+                          <p>
+                            In "Ways of Seeing" Berger claims that the representations of men and women in visual culture entice different "gazes", different ways in which they are looked at, with men having the legitimization of examining women, and women – also examine women.
+                          </p>
+                      </div>
+                    </div>
+                  </a>
+              </div>
+
+              <div class="hey">
+                  <p>
+                      Ways Of Seeing
+                  </p>
+									<div class="sm">
+	                    <a href="thankyou.html">Buy</a>
+	                </div>
+              </div>
+            </div><!-- /.row -->
+
+            <div class="clearer"></div>
+
+          <div class="row">
+              <div class="col-2">
+                  <a class="flip-card">
+                      <div class="flip-card-inner">
+                          <div class="flip-card-front2"></div>
+                          <div class="flip-card-back">
+                              <p>
+                                  Synopsis:
+                              </p>
+                              <p>
+																Clair has turned her lifelong obsession with colors and where they come from (whether Van Gogh's chrome yellow sunflowers or punk's fluorescent pink) into a unique study of human civilization. Across fashion and politics, art and war, the secret lives of color tell the vivid story of our culture.
+                              </p>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+
+              <div class="hey">
+                  <p>
+                      The Secret Lives Of Color
+                  </p>
+									<div class="sm">
+	                    <a href="thankyou.html">Buy</a>
+	                </div>
+              </div>
+          </div><!-- /.row -->
+      </div><!-- /#main -->
+
+    </main>
+
+      <footer>
+          <img src="book.png" alt="Footer Logo">
+          <span>My Website<br>Ronak Shah &copy;</span>
+      </footer>
+
+  </body>
+  </html>
